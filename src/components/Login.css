@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 80px
+}
+
+.right {
+    flex: 50%;
+    background-color: lightblue;
+    padding: 80px
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+

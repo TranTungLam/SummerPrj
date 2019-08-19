@@ -1,0 +1,61 @@
+.todoContainer ul {
+    padding: 20px;   
+    width: 500px;
+    border-radius: 10px;
+    overflow: auto;
+    height: 500px;
+    background-color: rgb(218, 211, 211);
+}
+
+
+
+
+.doingContainer ul {
+    padding: 20px;   
+    width: 500px;
+    border-radius: 10px;
+    overflow: auto;
+    height: 500px;
+    background-color: rgb(218, 211, 211);
+}
+
+.doingContainer li {
+    word-wrap: break-word;
+    padding:10px;
+    border-bottom-style:solid;
+    border-color:#ccc;
+    
+    margin:2px;
+    border-radius: 10px;
+}
+
+.todoContainer li {
+    word-wrap: break-word;
+    padding:10px;
+    border-bottom-style:solid;
+    border-color:#ccc;
+    
+    margin:2px;
+    border-radius: 10px;
+}
+
+#inputItems {  
+    word-wrap: break-word;
+    width: 500px;
+}
+
+#pendingList button {
+    font-size: 13px;
+    right: 2px;
+    position: absolute;
+    border-radius: 5px;
+
+}
+
+.MyPage {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
